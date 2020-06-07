@@ -34,16 +34,12 @@ import okhttp3.Response;
 
 
 public class ChooseAreaFragment extends Fragment {
-    /**
-     * 宏定义试图的不同级别
-     */
+
     public static final int LEVEL_PROVINCE = 0;
     public static final int LEVEL_CITY = 1;
     public static final int LEVEL_COUNTY = 2;
 
-    /**
-     * 准备一些控件
-     */
+
     private ProgressDialog progressDialog;
     private TextView titleText;
     private Button backButton;
