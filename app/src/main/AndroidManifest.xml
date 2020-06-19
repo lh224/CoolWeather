@@ -3,7 +3,7 @@
     package="com.coolweather.android">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-
+    //注释
     <application
         android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
